@@ -1,0 +1,9 @@
+@use "footer" as *;
+
+footer {
+  p {
+    font-size: 16px;
+    font-weight: bolder;
+    color: $white;
+  }
+}
