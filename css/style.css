@@ -1,16 +1,31 @@
-header h1 {
-  color: #3498db;
-  font-size: 44px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  height: 100vh;
+  flex-direction: column; /* Ensures elements stack */
+  text-align: center; /* Centers text */
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-section h2 {
-  color: #2ecc71;
-  font-size: 36px;
+.container header img {
+  height: 100px;
 }
-
+.container header h1 {
+  font-size: 20px;
+}
 body {
-  font-family: Arial, sans-serif;
-  background-color: yellowgreen;
+  font-family: "Quicksand", sans-serif;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 21%, rgb(0, 212, 255) 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,15 +1,27 @@
 @use "variables" as *;
 
-header {
-  h1 {
-    color: $primary-color;
-    font-size: 44px;
-  }
-}
-
-section {
-  h2 {
-    color: $secondary-color;
-    font-size: 36px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  height: 100vh;
+  flex-direction: column; /* Ensures elements stack */
+  text-align: center; /* Centers text */
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  header {
+    img {
+      height: 100px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    p {
+    }
+    button {
+    }
   }
 }
