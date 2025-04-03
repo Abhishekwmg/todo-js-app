@@ -1,0 +1,16 @@
+header h1 {
+  color: #3498db;
+  font-size: 44px;
+}
+
+section h2 {
+  color: #2ecc71;
+  font-size: 36px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: yellowgreen;
+}
+
+/*# sourceMappingURL=style.css.map */

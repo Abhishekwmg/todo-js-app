@@ -1,0 +1,15 @@
+@use "variables" as *;
+
+header {
+  h1 {
+    color: $primary-color;
+    font-size: 44px;
+  }
+}
+
+section {
+  h2 {
+    color: $secondary-color;
+    font-size: 36px;
+  }
+}
