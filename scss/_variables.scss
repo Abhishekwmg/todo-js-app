@@ -1,3 +1,13 @@
+//Media Query
+$breakpoints: (
+    "mobile": 480px,
+    "tablet": 768px,
+    "laptop": 1024px,
+    "desktop": 1200px
+);
+
 $primary-color: #3498db;
 $secondary-color: #2ecc71;
 $white: #ffffff;
+$text-color: #9b9a9a;
+$heading-color: #3c3c3c;

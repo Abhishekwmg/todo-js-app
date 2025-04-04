@@ -1,27 +1,53 @@
 @use "variables" as *;
+@use "mixins" as *;
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 400px;
-  height: 100vh;
+  max-width: 300px;
+  height: 90vh;
   flex-direction: column; /* Ensures elements stack */
   text-align: center; /* Centers text */
   padding: 20px;
-  background: #f8f9fa;
+  background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  header {
-    img {
-      height: 100px;
+
+  @include respond-to("mobile") {
+    height: 100vh;
+    max-width: 400px;
+  }
+
+  header.landing-page {
+    .hero-image {
+      sss img {
+        width: 100%;
+      }
     }
+
     h1 {
-      font-size: 20px;
+      font-size: 28px;
+      color: $heading-color;
     }
     p {
+      font-size: 14px;
+      width: 80%;
+      color: $text-color;
+      margin: 0 auto;
     }
     button {
+      width: 80%;
+      margin-top: 30px;
+      border-radius: 15px;
+      background-color: $primary-color;
+      outline: none;
+      border: none;
+      padding: 15px;
+      color: $white;
+      font-size: 18px;
+      font-weight: 400;
+      cursor: pointer;
     }
   }
 }

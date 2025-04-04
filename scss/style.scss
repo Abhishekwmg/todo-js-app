@@ -1,9 +1,10 @@
 @use "header";
 @use "variables" as *;
+@use "mixins";
 
 body {
   font-family: "Quicksand", sans-serif;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   display: flex;
   justify-content: center;
