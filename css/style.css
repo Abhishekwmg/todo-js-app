@@ -39,9 +39,50 @@
   border: none;
   padding: 15px;
   color: #ffffff;
+  cursor: pointer;
+}
+.container header.landing-page button a {
   font-size: 18px;
   font-weight: 400;
-  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container .homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .homepage button {
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: bisque;
+}
+.container .homepage button a img {
+  width: 10px;
+}
+.container .homepage h1 {
+  font-size: 28px;
+  color: #000000;
+  font-weight: bold;
+}
+.container .card .card-container {
+  width: 100px;
+  background-color: aquamarine;
+}
+.container .card .card-container .card-text-one {
+  font-size: 20px;
+}
+.container .card .card-container .card-text-two {
+  font-size: 14px;
+}
+.container .card .card-progress .profile-icons .profile img {
+  width: 30px;
+}
+.container .current-task .task-card img {
+  width: 30px;
 }
 
 body {

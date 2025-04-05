@@ -1,0 +1,61 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.container {
+    .homepage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            padding: 15px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            background-color: bisque;
+
+            a {
+                img {
+                    width: 10px;
+                }
+            }
+        }
+        h1 {
+            font-size: 28px;
+            color: #000000;
+            font-weight: bold;
+        }
+    }
+    .card {
+        .card-container {
+            width: 100px;
+            background-color: aquamarine;
+            .card-text-one {
+                font-size: 20px;
+            }
+            .card-text-two {
+                font-size: 14px;
+            }
+        }
+        .card-progress {
+            .profile-icons {
+                .profile {
+                    img {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .current-task {
+        h2 {
+        }
+        a {
+        }
+        .task-card {
+            img {
+                width: 30px;
+            }
+        }
+    }
+}

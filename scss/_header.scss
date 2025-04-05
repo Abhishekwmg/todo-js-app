@@ -45,9 +45,15 @@
       border: none;
       padding: 15px;
       color: $white;
-      font-size: 18px;
-      font-weight: 400;
+
       cursor: pointer;
+
+      a {
+        font-size: 18px;
+        font-weight: 400;
+        color: $white;
+        text-decoration: none;
+      }
     }
   }
 }
